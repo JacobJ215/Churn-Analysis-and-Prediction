@@ -28,14 +28,20 @@ The following tasks were performed in the exploratory data analysis:
 * Obtained descriptive statistics.
 * Dropped the customerID column.
 * Plotted churn rate distribution.
+
 ![Churn Distribution](screenshots/churn_distribution.png)
 * Calculated churn percentage.
+
 ![Churn Percentage](screenshots/churn_percentages.png)
 * Grouped the data by gender and churn and counted the number of customers in each group.
+
 * Calculated the churn rate for each gender and created a bar chart.
+
 ![Churn Gender](screenshots/churn_gender.png)
 * Created a function to plot the churn rate by different categories such as PaymentMethod, Partner, Dependents, etc.
+
 ![Churn Senior](screenshots/churn_senior.png)
 * Calculated the churn rate by tenure and created a line and histogram chart
+
 ![Churn Tenure](screenshots/churn_tenure_line.png)
 ![Churn Tenure](screenshots/churn_tenure_hist.png)
