@@ -1,6 +1,9 @@
 ## Telecom Churn Analysis
 This repository contains the code for analyzing telecom churn rate. The aim of this project is to predict whether a customer will churn or not based on various features.
 
+![](screenshots/Churn%20Dashboard.png)
+[Link to Tableau Dashboard](https://public.tableau.com/views/ChurnDashboard_16836452983320/ChurnDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 ## Table of Contents
 * Libraries Used
 * Load Data
