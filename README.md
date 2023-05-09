@@ -4,6 +4,8 @@ This repository contains the code for analyzing telecom churn rate. The aim of t
 ![](screenshots/Churn%20Dashboard.png)
 [Link to Tableau Dashboard](https://public.tableau.com/views/ChurnDashboard_16836452983320/ChurnDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
+[View on Google Colab](https://colab.research.google.com/drive/1KHAz6vBfsyrZ6AQDs5YovIRazEb27eK6?usp=sharing)
+
 ## Table of Contents
 * Libraries Used
 * Load Data
@@ -104,3 +106,7 @@ To do this, we first save the best model using joblib. We then load the saved mo
 
 ## Conclusion
 In this project, we analyzed the telecom churn rate using various machine learning algorithms. The best performing model was XGBoost with an accuracy of 81.22%. We also performed SHAP analysis to interpret the XGBoost model and found that MonthlyCharges, Tenure, and InternetService_Fiber optic were the most important features in predicting churn.
+
+Created a machine learning model to predict customer churn based on various features.
+Conducted exploratory data analysis and data preprocessing using pandas, numpy, seaborn, matplotlib, and plotly.
+Achieved an accuracy of [insert accuracy result here] by training and testing multiple machine learning models using LazyClassifier and hyperparameter tuning with GridSearchCV. Also, created a list of customers based on their risk of churn probability.
