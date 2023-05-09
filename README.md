@@ -82,7 +82,7 @@ After identifying some of the top-performing models, I performed hyperparameter 
 After finding the best hyperparameters for each model, I trained the models again using these hyperparameters, and then evaluated their performance on the validation set using various metrics such as accuracy, precision, recall, F1-score and ROC AUC score.
 
 ## Results
-The best performing model was XGBoost with an accuracy of 81.22%, precision of 67.12%, recall of 52.05%, F1-score of 58.61%, and ROC-AUC of 0.816.
+The best performing model was XGBoost with an accuracy of 81.92%, precision of 67.12%, recall of 52.05%, F1-score of 58.61%, and ROC-AUC of 0.816.
 
 SHAP analysis was performed to interpret the XGBoost model. The analysis revealed that the most important features in predicting churn were MonthlyCharges, Contract_month-to-month, Tenure, and InternetService_Fiber optic.
 
