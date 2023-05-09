@@ -105,7 +105,7 @@ To do this, we first save the best model using joblib. We then load the saved mo
 ![Top 10 at risk](screenshots/top_10_at_risk.png)
 
 ## Conclusion
-In this project, we analyzed the telecom churn rate using various machine learning algorithms. The best performing model was XGBoost with an accuracy of 81.22%. We also performed SHAP analysis to interpret the XGBoost model and found that MonthlyCharges, Tenure, and InternetService_Fiber optic were the most important features in predicting churn.
+In this project, we analyzed the telecom churn rate using various machine learning algorithms. The best performing model was XGBoost with an accuracy of 81.92%. We also performed SHAP analysis to interpret the XGBoost model and found that MonthlyCharges, Tenure, and InternetService_Fiber optic were the most important features in predicting churn.
 
 Created a machine learning model to predict customer churn based on various features.
 Conducted exploratory data analysis and data preprocessing using pandas, numpy, seaborn, matplotlib, and plotly.
